@@ -1,0 +1,30 @@
+
+function piResponse() {
+		piSetCookie('visitor_id54092', '452546034', 3650);
+			piSetCookie('visitor_id54092-hash', '5357f2982023d9465e2fbade30375293dbb6e8e242ad9b5c331bc83c6c9973dcfa49204cb6dc02b3d830a86da6fdca3fc6808f4c', 3650);
+		
+		if (document.location.protocol != "https:" || (document.location.protocol == "https:" && true)) {
+		var analytics_link = document.location.protocol + "//" + "go.kanopy.com/analytics?";
+		pi.tracker.visitor_id='452546034';
+
+				pi.tracker.visitor_id_sign='5357f2982023d9465e2fbade30375293dbb6e8e242ad9b5c331bc83c6c9973dcfa49204cb6dc02b3d830a86da6fdca3fc6808f4c';
+		
+				pi.tracker.campaign_id='2672';
+		
+		var variables = 'conly=true';
+		for (property in pi.tracker) {
+					variables += "&" + property + "=" + encodeURIComponent(pi.tracker[property]);
+				}
+		var headID = document.getElementsByTagName("head")[0];
+		piScriptObj[piScriptNum] = document.createElement('script');
+		piScriptObj[piScriptNum].type = 'text/javascript';
+		piScriptObj[piScriptNum].src = analytics_link + variables;
+		headID.appendChild(piScriptObj[piScriptNum]);
+		piScriptObj[piScriptNum].onload = function() { return; }
+	}
+	}
+piResponse();
+
+
+
+

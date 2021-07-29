@@ -1,0 +1,4 @@
+$j(document).on('ready',function(){var anchor=window.location.hash.substr(1);if(window.location.hash.length>0){window.history.pushState("URL without the anchor","Kanopy",window.location.href.substr(0,window.location.href.length-window.location.hash.length));}
+var splitted_anchor=anchor.split(':');if(splitted_anchor.length==3){var operation=splitted_anchor[0];var group=splitted_anchor[1];var name=splitted_anchor[2];switch(operation){case "click":switch(group){case "id":case "class":var prefix="#";if(group=="class"){prefix=".";}
+setTimeout(function(){$(prefix+name).click();},500);break;default:}
+break;default:}}});

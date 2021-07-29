@@ -1,0 +1,223 @@
+body{
+    box-sizing: border-box;
+
+}
+
+.top .row button{
+    margin-left: 100px;
+} 
+
+
+.top{
+    background-image: url(../image/1d-landing-page-hero-us-pl-2-bookshop.jpg);
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    margin: auto;
+}
+
+/* .container {
+    background-color: aqua;
+    width: 40%;
+    margin-left: 0;
+    height: 100%;
+} */
+
+.middle1{
+    background-image: url(../image/woman-1867093_1920.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.middle2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.middle3{
+    font-size: 30px;
+    text-align: center;  
+}
+
+.middle1 .row{
+    /* background-color: chartreuse; */
+    position: relative;
+    z-index: 999999;
+    color: white;
+
+}
+
+.middle1 .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(14, 13, 13, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+
+.middle1 .row .content2{
+    height: 600px;
+    padding-top: 200px;
+}
+
+
+
+.middle2{
+    height: 200px;
+    color: white;
+    background-color: black;
+}
+
+.movies{
+    background-color: black;
+    height: 840px;
+
+}
+
+/* .movies .movie1{
+    display: flex;
+    justify-content: space-around;
+}
+.movies .movie2{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.movie1{
+    background-color: black;
+}
+
+.movie2{
+    background-color: black;
+}
+
+.movie1 #hublot{
+    background-image: url(../image/MR.-HUBLOT.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.movie1 #race{
+    background-image: url(../image/Race-Power.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.movie1 #on-chesil{
+    background-image: url(../image/ON-CHESIL-BEACH.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.movie1 #chinatown{
+    background-image: url(../image/CHINATOWN.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.movie2 #ladybird{
+    background-image: url(../image/LADY-BIRD.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.movie2 #moonlight{
+    background-image: url(../image/MOONLIGHT.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.movie2 #firstReformed{
+    background-image: url(../image/FIRST-REFORMED.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.movie2 #century{
+    background-image: url(../image/20TH-CENTURY-WOMEN.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.middle3{
+    height: 200px;
+    color: white;
+    background-color: black;
+}
+
+aside{
+    background-color: black;
+    height: 600px;
+}
+
+.bottom {
+    text-align: center;
+    align-items: center;
+}
+
+/* footer{
+    /* background-color: black;
+    height: 200px;
+} */
+
+footer .links ul{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .links ul{
+    list-style-type: none;
+}
+
+footer .links ul li a{
+    display: inline-block !important;
+    padding: 5px;
+}
+
+footer .links .links2 .connect1{
+    display: flex;
+    font-size: 15px;
+}
+footer .links .links2 .connect2{
+    display: flex;
+    font-size: 15px;
+}
+
+footer .links .links2 .soclink {
+    display: flex;
+    font-size: 15px;
+}
+
+img{
+    height: 25px;
+}
+
